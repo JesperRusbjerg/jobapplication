@@ -1,0 +1,30 @@
+{
+  "name": "miniProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=jp-* mocha",
+    "dev": "DEBUG=jp-* node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "geojson-utils": "^1.1.0",
+    "graphql": "^14.3.0",
+    "helmet": "^3.16.0",
+    "mongoose": "^5.4.19",
+    "nock": "^10.0.6",
+    "node-fetch": "^2.3.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
