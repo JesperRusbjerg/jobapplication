@@ -18,7 +18,7 @@
     "geojson-utils": "^1.1.0",
     "graphql": "^14.3.0",
     "helmet": "^3.16.0",
-    "mongoose": "^5.4.19",
+    "mongoose": "^5.7.5",
     "nock": "^10.0.6",
     "node-fetch": "^2.3.0",
     "winston": "^3.2.1"
